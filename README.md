@@ -8,6 +8,8 @@ It has two endpoints:
 
 ### Building
 
+> NOTE: use the `configuration/settings.xml` to get the right maven repos
+
 The example can be built with:
 
     $ mvn install
@@ -22,7 +24,7 @@ The example can be run locally using the following Maven goal:
 
 Alternatively, you can run the application locally using the executable JAR produced:
 
-    $ java -jar target/spring-boot-camel-rest-sql-1.0-SNAPSHOT.jar
+    $ java -jar target/camel-sb-restlet-demo-0.0.1-SNAPSHOT.jar
 
 You can then access the REST API directly from your Web browser, e.g.:
 
